@@ -1,0 +1,33 @@
+/* fonts */ 
+
+/* font-family: 'Montserrat', sans-serif; */
+
+/* sans serif */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap');
+
+
+/* globals */ 
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;   
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    font-size: 1em; /* default */
+    font-weight: 400;
+    text-decoration: none; 
+    color: var(--pridark);
+}
+
+input[type="submit"]:focus {
+    outline: none;
+}
+

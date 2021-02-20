@@ -1,0 +1,161 @@
+#hero {
+    width: 100%;
+    height: 90vh;
+    
+    /* border: 2px solid red; */
+}
+
+.hero_container {
+    width: 100%;
+    height: 100%;
+    padding: 5em;
+}
+
+.intro_headline {
+    font-size: 3.2em;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.intro_headline span {
+    font-weight: 700;
+}
+
+.intro_text {
+    font-size: 1.3em;
+    font-weight: 200;
+    text-align:left;
+    width: 850px;
+}
+
+.intro_line {
+    font-size: 2em;
+    font-weight: 600;
+    text-align: left;
+    color: var(--pridark);
+    margin-top: 4em;
+}
+
+.intro_btn{
+    display: flex; 
+    justify-content: flex-start;
+    margin-top: 1.2em;
+}
+
+.btn {   
+    padding: 1.2em;
+    background-color: var(--pribase);
+    color: var(--white);
+    text-transform: uppercase;
+    text-align: center; 
+    border: none;    
+    cursor: pointer;   
+    transition: font-weight 0.2s ease-out; 
+    transition: box-shadow 0.2s ease-out;
+}
+
+.intro_btn .btn:hover {
+    background-color: var(--pribase);
+    color:var(--white);
+    font-weight: bold;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.6);
+}
+
+@media (max-width: 1155px) {
+
+    .intro_headline {
+        font-size: 2.7em;
+    }
+
+    .intro_text {
+        font-size: 1em;
+        width: 700px;
+        font-weight: 300;
+    }
+
+    .intro_line {
+        font-size: 1.7em;
+    }
+}
+
+@media (max-width: 941px) {
+
+    .intro_headline {
+        font-size: 2.4em;
+    }
+
+    .intro_text {        
+        width: 600px;        
+    }
+
+    .intro_line {
+        font-size: 1.4em;
+        width: 650px;
+    }
+}
+
+@media (max-width: 810px) {
+
+    .intro_headline {
+        font-size: 2em;
+    }
+
+    .intro_text {        
+        width: 500px;        
+    }
+
+    .intro_line {
+        font-size: 1.2em;
+        width: 550px;
+    }
+}
+
+@media (max-width: 631px) {
+    
+    .intro_headline {
+        font-size: 1.5em;
+        margin-top: 1.5em;
+    }
+
+    .intro_text {
+        font-size: 0.8em;
+        width: 400px;
+    }
+
+    .intro_line {
+        font-size: 1em;
+        width: 420px;
+    }
+
+    .btn {
+        padding: .8em;
+    }
+}
+
+
+@media (max-width: 558px) {
+    
+    #hero {
+        height: 80vh;
+    }
+
+    .intro_headline {
+        font-size: 1.2em;
+        margin-top: 1.1em;
+    }
+
+    .intro_text {
+        font-size: 0.6em;
+        width: 260px;
+    }
+
+    .intro_line {
+        font-size: 0.8em;
+        width: 260px;
+    }
+
+    .btn {
+        padding: .7em;
+    }
+}

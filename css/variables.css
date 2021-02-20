@@ -1,0 +1,14 @@
+/* Color Variables */
+
+:root {
+    /* primary color with a dark and light hues */
+    --pridark: #091925;
+    --pribase: #0A83D8;
+    --prilight: #7BBEEE;
+   
+    /* basic colors */ 
+    --white: #fff;
+    --lightgray: #eeeeee;
+    --darkgray: #2e2e33;
+    --black: #000000;
+}

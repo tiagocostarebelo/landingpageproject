@@ -1,0 +1,22 @@
+#btn_top {
+    position: fixed;
+    bottom: 80px;
+    right: 10px;
+    font-size: 0.7em;
+    width: 30px;
+    height: 30px;
+    background-color: var(--pribase);
+    color: var(--white);
+    cursor: pointer;
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+    transition: 0.2s ease-in-out;
+}
+
+#btn_top:hover {
+  background-color: var(--pribase);
+    color:var(--white);
+    font-weight: bold;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.6);
+}
